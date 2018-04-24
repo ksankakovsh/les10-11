@@ -53,7 +53,7 @@ table {
 /*секция с красивой картинкой))*/
 .banner {
 	background-image: url(./img/banner.png); background-repeat: no-repeat;
-	
+	background-size: cover;
 }
 header {padding-top: 50px; margin-bottom: 155px;}
 
@@ -79,7 +79,7 @@ header {padding-top: 50px; margin-bottom: 155px;}
 .webdev h2 {font-size: 60px; margin-bottom: 35px;}
 .bold {font-weight: bolder;}
 .webdev p { font-size: 18px; color: rgb(119, 119, 119); margin-bottom: 37px;}
-.text1 {width: 60%;float: left; margin-bottom: 64px; }
+.text1 {width: 55%;float: left; margin-bottom: 64px;}
 .img1 { width: 40%; float: right;}
 /*конец web development*/
 /*секция identity branding*/

@@ -51,15 +51,15 @@ table {
 .all {width: 100%; margin:0 auto; font-family: BrandonGrotesque;  }
 .wrap {width: 70%; margin:0 auto;} /*задаем ширину содержимого и выравниваем по центру*/
 /*секция с красивой картинкой))*/
-.banner {
+.banner {padding-top: 50px;
 	background-image: url(./img/banner.png); background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;padding-bottom: 125px;
 }
-header {padding-top: 50px; margin-bottom: 155px;}
+header { margin-bottom: 155px;}
 
-.menu {float: right;}
+.menu {float: right; }
 .menu a {padding-left: 28px;
- text-decoration: none; color: #fff; font-size:18px;}
+ text-decoration: none; color: #fff; font-size:18px; }
 
   
 .banner p {text-align: center; margin-bottom: 35px; color: #fff; font-size: 32px;}
@@ -68,7 +68,7 @@ header {padding-top: 50px; margin-bottom: 155px;}
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;} 
-.h1 {text-align: center; padding-bottom: 125px;}
+.h1 {text-align: center; }
 .h1 button { border: solid 2px #fff; border-radius: 2px; padding: 20px 68px 24px 68px; 
 	 background: transparent;
     text-align: center; text-decoration: none; color: #fff; font-size:18px;
@@ -91,12 +91,13 @@ header {padding-top: 50px; margin-bottom: 155px;}
 /*конец секции identity branding*/
 /*секция list*/
 .list { padding-top: 102px;padding-bottom: 55px; }
-.list h3 {font-size: 22px; margin-bottom:10px; }
+.list h3 {width: 65%; margin: 0 auto; font-size: 22px; margin-bottom:10px; }
 .list p {font-size: 18px;color: rgb(119, 119, 119);}
-.list li {margin-bottom: 40px}
+.list li {margin-bottom: 40px;}
 .list img { float: left; margin-right: 15px;}
 .ul1 {width: 45%; float: left; margin-right: 80px;}
-.ul2 {width: 45%; display: inline;}
+.ul2 {width: 45%; display: inline-block;}
+
 /* конец list*/
 /*секция awesome clients*/
 .clients { background: #fafafa; padding-top: 102px;}
@@ -132,8 +133,9 @@ border: 1px solid #DCDCDC; background: #fff; }
 .team img  {background: #111111; padding-bottom: 20px; }
 .team span {font-weight: bold;}
 .team figure {margin-bottom: 10px;}
-.kim { float: left; width: 34%; text-align: center; margin-bottom: 45px;}
-.rico { float: left; width: 32%; text-align: center; margin-bottom: 45px;}
+
+.kim { float: left; width: 34%; text-align: center; }
+.rico { float: left; width: 32%; text-align: center; }
 .uku { float: left; width: 34%; text-align: center; margin-bottom: 45px;}
 .p { font-size: 20px; color: rgb(235, 235, 235);}
 .team .fa-twitter {background: #00aced; padding: 10px 12px 10px 11px; border-radius: 50%;}
@@ -143,14 +145,14 @@ border: 1px solid #DCDCDC; background: #fff; }
 /*конец секции team*/
 /*секция say*/
 .say {height: auto; background: #7690c5; padding-top: 100px; color: #fff; }
-.hello {display: inline-block; float: left; width: 50%; }
+.hello {display: block; float: left; width: 50%; }
 .hello h2 {font-size: 60px; margin-bottom: 17px;}
 .hello p {margin-bottom: 47px; line-height: 1.2; font-size: 18px;}
 .hello ul {display: inline-block; float: left; background: #7690c5; margin-right: 60px;}
 .hello li {margin-bottom: 40px;}
 form {display: inline-block; width: 50%;}
-input { width: 406px; height: 50px; border-radius: 3px; margin-bottom: 30px; padding-left: 20px;}
-textarea { width: 406px; height: 210px; border-radius: 3px;padding-left: 20px; padding-top: 15px;
+input {width: 100%; max-width: 406px; height: 50px; border-radius: 3px; margin-bottom: 30px; padding-left: 20px;}
+textarea {width: 100%; max-width: 406px; height: 210px; border-radius: 3px;padding-left: 20px; padding-top: 15px;
 font-family: "BrandonGrotesque";font-size: 18px;}
 i {padding-right: 10px;}
 hr {color: #87a0d2; width: 100%; margin-top: 99px; margin-bottom: 0px;}

@@ -80,7 +80,7 @@ header { margin-bottom: 155px;}
 .webdev h2 {font-size: 60px; margin-bottom: 35px;}
 .bold {font-weight: bolder;}
 .webdev p { font-size: 18px; color: rgb(119, 119, 119); margin-bottom: 37px;}
-.text1 {width: 55%;float: left; margin-bottom: 64px;}
+.text1 {display: inline-block; width: 55%;}
 .img1 { width: 30%;  display: inline-block; margin-left: 50px; margin-bottom: 50px;}
 /*конец web development*/
 /*секция identity branding*/
@@ -101,7 +101,7 @@ header { margin-bottom: 155px;}
 
 /* конец list*/
 /*секция awesome clients*/
-.clients { background: #fafafa; padding-top: 102px;}
+.clients { background: #fafafa; padding-top: 102px; padding-bottom:30px; }
 .clients h2 {font-size: 60px;color: rgb(34, 34, 34); text-align: center; margin-bottom: 20px;}
 .clients p {font-size: 22px;color: rgb(119, 119, 119);text-align: center; margin-bottom: 47px;}
 .jR {width: 30%;  float: left;}
@@ -128,7 +128,7 @@ border: 1px solid #DCDCDC; background: #fff; }
 /* конец logos*/
 /*секция team*/
 .team {background: #111111; text-align: center; color: #fff; 
-	padding-top: 102px; padding-bottom: 95px;}
+	padding-top: 102px; padding-bottom: 60px;}
 .team h2 {font-size: 60px; margin-bottom: 10px;}
 .team p {font-size: 22px; color: rgb(119, 119, 119); margin-bottom: 60px;}
 .team img  {background: #111111; padding-bottom: 20px; }
